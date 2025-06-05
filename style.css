@@ -145,7 +145,7 @@ p, #text {
   position: fixed;
   pointer-events: none;
   border-radius: 50%;
-  background: radial-gradient(circle at 60% 40%, #ff3b9acc 60%, #f5af17 100%, transparent 100%);
+  background: radial-gradient(circle at 60% 40%, #f8ffc7cc  60%, #f5af17 100%, transparent 100%);
   opacity: 0.85;
   filter: blur(2px) brightness(1.6);
   box-shadow: 0 0 16px 8px #96895566, 0 0 32px 16px #f6f3de55;
