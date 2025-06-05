@@ -132,7 +132,7 @@ function launchBalloonsLoop() {
   function createBalloon() {
     const balloon = document.createElement('div');
     balloon.className = 'balloon';
-    const size = 32 + Math.random() * 32;
+    const size = 40 + Math.random() * 32;
     balloon.style.width = `${size}px`;
     balloon.style.height = `${size}px`;
     balloon.style.left = `${Math.random() * 90}vw`;
@@ -154,7 +154,7 @@ function launchFlowerGlows() {
   glowInterval = setInterval(() => {
     const glow = document.createElement('div');
     glow.className = 'flower-glow';
-    const size = 10 + Math.random() * 24;
+    const size = 0.5 + Math.random() * 24;
 
     // สุ่มตำแหน่งนอกบริเวณดอกไม้ (กลางจอ)
     let left, bottom;
